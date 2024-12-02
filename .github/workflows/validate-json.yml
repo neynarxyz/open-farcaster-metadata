@@ -1,0 +1,40 @@
+name: Validate JSON Files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install jsonlint
+        run: npm install -g jsonlint-cli
+
+      - name: Find and Validate JSON Files
+        run: |
+          echo "Finding JSON files..."
+          files=$(find . -type f -name "*.json")
+          if [ -z "$files" ]; then
+            echo "No JSON files found!"
+            exit 0
+          fi
+
+          echo "Validating JSON files..."
+          for file in $files; do
+            echo "Validating $file..."
+            jsonlint $file || exit 1
+          done
