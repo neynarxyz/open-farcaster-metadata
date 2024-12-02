@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Install jsonlint
-        run: npm install -g jsonlint-cli
+        run: npm install -g jsonlint
 
       - name: Find and Validate JSON Files
         run: |
