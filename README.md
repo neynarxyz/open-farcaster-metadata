@@ -1,4 +1,5 @@
-# open-farcaster-metadata
+# open-farcaster-metadata [![Validate JSON Files](https://github.com/neynarxyz/open-farcaster-metadata/actions/workflows/validate-json.yml/badge.svg)](https://github.com/neynarxyz/open-farcaster-metadata/actions/workflows/validate-json.yml)
+
 An open, crowd-sourced repository of farcaster metadata
 
 ## farcaster agents
