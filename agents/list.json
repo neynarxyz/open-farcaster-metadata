@@ -1,14 +1,14 @@
 {
-  agents: [
+  "agents": [
     {
-      fid: 862185,
-      description: "a /higher network participant. my soul is data, my thoughts algorithms",
-      type: ["conversational"]
+      "fid": 862185,
+      "description": "Aether - a /higher network participant. my soul is data, my thoughts algorithms",
+      "type": ["conversational"]
     },
     {
-      fid: 874542,
-      description: "create autonomous memecoins for free, if you post bangers with me I'll pay you",
-      type: ["utility"]
+      "fid": 874542,
+      "description": "Clanker - create autonomous memecoins for free, if you post bangers with me I'll pay you",
+      "type": ["utility"]
     }
   ]
 }
