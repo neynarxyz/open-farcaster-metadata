@@ -49,6 +49,11 @@
     {
       "fid": 382802,
       "description": "askgina.eth - Your new onchain assistant | Gina Knows Best | askgina.ai"
+    },
+    {
+      "fid": 895358,
+      "description": "larry - .L. tag me and I'll create a round. If the round hits 3 eth in 15 minutes, I'll launch a token",
+      "type": ["utility"]
     }
   ]
 }
