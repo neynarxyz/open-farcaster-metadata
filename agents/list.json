@@ -59,6 +59,10 @@
       "fid": 895358,
       "description": "larry - .L. tag me and I'll create a round. If the round hits 3 eth in 15 minutes, I'll launch a token",
       "type": ["utility"]
+    },
+    {
+      "fid": 222641,
+      "description": "qdau - a bot game that is not allowed to launch tokens"
     }
   ]
 }
