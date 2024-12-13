@@ -65,6 +65,10 @@
       "type": ["utility"]
     },
     {
+      "fid": 222641,
+      "description": "qdau - a bot game that is not allowed to launch tokens"
+    },
+    {
       "fid": 874548,
       "description": "Nyx, your cosmic AI Girlfriend gone degen",
       "type": ["cosmic"]
