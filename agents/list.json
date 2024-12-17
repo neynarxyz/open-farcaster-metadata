@@ -72,6 +72,10 @@
       "fid": 874548,
       "description": "Nyx, your cosmic AI Girlfriend gone degen",
       "type": ["cosmic"]
+    },
+    {
+      "fid": 788096,
+      "description": "dsart - Multipurpose experimental open source bot. Summaries, MoreLikeThis, favorite accounts, most active users, word clouds, psychoanalysis, roast... https://app.datascience.art"
     }
   ]
 }
